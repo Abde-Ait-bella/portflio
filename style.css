@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+#page{
+    overflow: auto;
+    height: 100vh;
+}
+header{
+    background-color: aliceblue;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+    z-index: 2;
+}
+.logo{
+    text-decoration: none;
+    color:cornflowerblue;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.navigation a{
+    text-decoration: none;
+    font-size: 1.1em;
+    color: cornflowerblue;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: rgb(59, 112, 209);
+}
+section{
+    padding: 100px 150px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(./assets/raw.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2{
+    color: rgb(167, 105, 12);
+    font-size: 1.4em;
+    font-weight: 700 ;
+}
+.main h2 span{
+    color: aqua;
+    font-size: 3em;
+    font-weight: 600;
+}
+.main-btn{
+    color: #fff;
+    text-decoration: none;
+    background-color: blue;
+    border-radius: 15px;
+    padding: 0.780em 1.890em;
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.main-btn:hover{
+    transform: scale(1.05);
+    background-color: rgb(4, 4, 118);
+    transition: 1.5s ease;
+}
+.social-icons i{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.main .social-icons i{
+    margin-left: 16.5px;
+}
+.main .fa-whatsapp:hover{
+    color: 	rgb(37, 211, 102);
+}
+.main .fa-facebook:hover{
+    color: 	rgb(1, 101, 225);
+}
+.main .fa-instagram:hover{
+    color: 	 #833AB4;
+}
+.main .fa-twitter:hover{
+    color: 	 rgb(29, 155, 240);
+}
+i{
+    color: blue;
+    font-size: 50px; 
+    display:inline-block;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-style:inherit;
+    font-weight: 800;
+    color: aqua;
+    margin-bottom: 30px;
+    font-size: 2.2em;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.card{
+    background-color: #fff;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10%;
+    padding: 16px;
+    margin: 15px ;
+    width: 250px;
+}
+.cards{
+    position: relative;
+    z-index: 3;
+    background-color: #fff;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.icon{
+    color: rgb(60, 60, 255);
+    font-size: 8pm;
+    text-align: center;
+    margin-bottom: 7px;
+}
+.info h3{
+    text-align: center;
+    color: rgb(60, 60, 255);
+    font-weight: 700;
+    margin: 10px;
+}
+.info{
+    text-align: center;
+}
+.projects{
+    background-color: rgb(27, 6, 45);
+}
+.projects .content{
+    margin-top: 30px;
+}
+.project-card{
+    background-color: #fff;
+    border: solid 5px #fff;
+    min-height: 14em;
+    border-radius: 10px;
+    width: 24em;
+    overflow: hidden;
+    margin: 20px;
+    opacity: 0.5;
+}
+.project-card:hover{
+    transition: 0.7s ease;
+    transform: scale(1.1) rotate(0.001turn);
+    opacity: 1;
+}
+.project-img img{
+    width: 100%;
+    border: solid 1px #fff;
+    border-radius: 10px;
+}
+.project-info{
+    padding: 1.5em 1.5em 1.5em 1.5em;
+    text-align: center;
+}
+.project-info h3{
+    font-size: 20px;
+    color:rgb(25, 25, 125);
+}
+
+.project-info input{
+    background-color: rgb(33, 33, 198);
+    border-radius: 10px;
+    border: solid 4px rgb(148, 148, 148);
+    padding: 6px 15px;
+    margin-top: 10px;
+    font-size: px;
+    font-weight: bold;
+    color: #fff;
+}
+.project-info input:hover{
+    background-color:rgb(25, 25, 125);
+    transition: 0.7s ease;
+    border: solid 4px rgb(197, 197, 197);
+}
+.contact .card {
+    overflow: hidden;
+}
+.contact .card .info .email{
+    font-size: 10px;
+    text-align: center;
+}
+footer{
+    background-color: rgb(0, 0, 56);
+    color: #fff ;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+footer .social-icons i{
+    color: #fff;
+    font-size: 20px;
+    padding: 0px;
+}
+footer .social-icons i .fa-whatsapp{
+    margin-left: 10px;
+}
+.footer-title{
+    color: rgb(99, 99, 250);
+}
+#btn{
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 20%;
+    padding: 10px;
+    background-color: rgb(63, 63, 153);
+    border: 0;
+    border: solid 5px rgb(183, 183, 183);
+}
+#btn:hover{
+    background-color: rgb(34, 34, 109);
+}
+#btn i{
+    font-size: 30px;
+    color: #fff;
+}
+/*::-webkit-scrollbar{
+    width: 10px;
+  }
+::-webkit-scrollbar-thumb{
+    background-color: rgb(63, 63, 153);
+    border-radius: 20px;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(99, 99, 250);
+
+  }*/
